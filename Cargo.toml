@@ -1,0 +1,41 @@
+[package]
+name = "kadmin-web"
+authors = [
+  "Marc 'risson' Schmitt <marc.schmitt@risson.space>",
+  "authentik community <hello@goauthentik.io>",
+]
+edition = "2021"
+rust-version = "1.82"
+readme = "README.md"
+homepage = "https://github.com/rissson/kadmin-web"
+repository = "https://github.com/rissson/kadmin-web.git"
+license = "MIT"
+
+[lints.rust]
+semicolon_in_expressions_from_macros = "warn"
+unreachable_pub = "warn"
+unused_import_braces = "warn"
+unused_qualifications = "warn"
+
+[lints.rustdoc]
+unescaped_backticks = "warn"
+
+[lints.clippy]
+branches_sharing_code = "warn"
+cloned_instead_of_copied = "warn"
+dbg_macro = "warn"
+disallowed_types = "warn"
+empty_line_after_outer_attr = "warn"
+exhaustive_enums = "warn"
+exhaustive_structs = "warn"
+inefficient_to_string = "warn"
+macro_use_imports = "warn"
+map_flatten = "warn"
+missing_enforced_import_renames = "warn"
+mut_mut = "warn"
+nonstandard_macro_braces = "warn"
+semicolon_if_nothing_returned = "warn"
+str_to_string = "warn"
+todo = "warn"
+unreadable_literal = "warn"
+unseparated_literal_suffix = "warn"
